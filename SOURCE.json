@@ -1,0 +1,28 @@
+{
+  "plugin": {
+    "plugin_id": "plugins_6acbfb81dd2881918cfc7871abd1d68d",
+    "name": "set-based-run-analyst",
+    "description": "Blind report-only analysis of EDT and ERL mixture/reference run reports. Includes a deterministic Python parser and automated tests.",
+    "version": "0.1.0",
+    "current_release_id": "pluginrel_6acbfb82653881918ab9b9e6408d929f",
+    "scope": "USER",
+    "discoverability": "PRIVATE"
+  },
+  "exported_on": "2026-10-11",
+  "original_file_sha256": {
+    ".codex-plugin/plugin.json": "bab124137fa517d039a69c4be2d34eef18d5642793632ad581302f17ec570e02",
+    "DEMO.md": "56bddcc1a82de83242195c75f50edb1fbf221955fb1b8e95d39fe5ff0ad668db",
+    "README.md": "7ef21ead3c9ad4ff67151d3e467ec397a701793d21b0ad05cd7500ac81b597bc",
+    "examples/edt.json": "67941c49cad5a26fabb2f38b187d48c833c767300b88883181f15ff6060ff728",
+    "examples/erl.json": "d489001119793a2ebc32d73440a857d45fb8a54c5e4e533e077cf90381e52724",
+    "plugin.json": "933b7598d9b6c977a04a85f38dd8e122713d1d920f71915882fe4f788f74b207",
+    "skills/analyze-set-runs/SKILL.md": "c7b2231491fd2f8e4d863d1589f5864118fc110adc9e6b88c60d46fd12cb6b35",
+    "skills/analyze-set-runs/agents/openai.yaml": "d7b817ead51e315215397291c2331c113a2d7c59bec567404193dea234f5ac7c",
+    "skills/analyze-set-runs/references/config-vocabulary.json": "b6ad944d8a5dd8b0b6cf48804f76539f622873d6beed7f3089ed203445c1a7cc",
+    "skills/analyze-set-runs/references/feature-catalog.json": "13a53c22cb2d44e76ad6dd2b65f136362723e38407ead1a6ad4bffd4ea13efcc",
+    "skills/analyze-set-runs/references/report-schema.json": "71f5de9b7b0958d4bbe59547c6439b352db581169630fac80007f3e1a0c9a9a8",
+    "skills/analyze-set-runs/references/semantics.md": "8d38fec0f8476ba5a5276075c5d94298c6b082d08cf8ee0be4c3582f0a3f0a01",
+    "skills/analyze-set-runs/scripts/inspect_report.py": "74c65cbfb8751ac878e774b430b96c14199e2108581c9d6662e57bf3976d2911",
+    "tests/test_reports.py": "b8c60711cc9b4b7af0688505e81061fa9e92d56521e9b1c15974cbc0f417846f"
+  }
+}

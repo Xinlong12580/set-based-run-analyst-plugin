@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "xliu5974@gmail.com",
+    "name": "Xavier Liu"
+  },
+  "description": "Blind report-only analysis of EDT and ERL mixture/reference run reports. Includes a deterministic Python parser and automated tests.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "defaultPrompt": "Analyze this EDT/ERL report with blind ingestion and explain the mixture/reference patterns, pruning, and evidence limits.",
+        "developerName": "Xavier Liu",
+        "displayName": "Set-Based Run Analyst",
+        "longDescription": "Label-agnostic report inspection, arithmetic checks, structured cuts, prefix and pruning explanations. Requires authorized Python execution. No tensor backend or hosted MCP service.",
+        "shortDescription": "Blind EDT/ERL report analysis"
+      }
+    }
+  },
+  "name": "set-based-run-analyst",
+  "version": "0.1.0"
+}

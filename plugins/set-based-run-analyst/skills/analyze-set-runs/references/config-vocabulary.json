@@ -1,0 +1,50 @@
+{
+  "gain_function": [
+    "gini_gain"
+  ],
+  "scoring_function": [
+    "gini_gain_minus_reference_acceptance_penalty",
+    "weighted_gini_gain_of_rule_vs_complement"
+  ],
+  "score_formula": [
+    "gini_gain - reference_penalty * reference_acceptance"
+  ],
+  "pruning_stage": [
+    "after_candidate_generation"
+  ],
+  "pruning_implementation": [
+    "ExistentialRuleList.prune_candidates"
+  ],
+  "stricter_filter_stage": [
+    "after_rate_filter_and_equivalence_merging"
+  ],
+  "stricter_filter_scope": [
+    "all_recognized_strict_subsets_including_tighter_thresholds_and_extra_AND_conditions",
+    "event_object_and_mixed_rules_with_same_slot_and_minimum_count_semantics"
+  ],
+  "stricter_filter_order": [
+    "logically_looser_first_then_final_score_ranking"
+  ],
+  "stricter_filter_comparison": [
+    "improvement_must_be_strictly_greater_with_1e-12_roundoff_tolerance"
+  ],
+  "containment_method": [
+    "same_column_bounds_and_category_sets_not_training_masks"
+  ],
+  "complexity_measure": [
+    "number_of_display_simplified_predicates",
+    "number_of_normalized_predicates"
+  ],
+  "rate_filter_stage": [
+    "before_equivalence_merging_and_stricter_pruning"
+  ],
+  "rate_limit_scope": [
+    "each_rule_not_combined_OR"
+  ],
+  "rate_estimation": [
+    "training_reference_acceptance_times_input_rate_no_confidence_bound"
+  ],
+  "pruning_policy": [
+    "rate_filter_then_merge_equivalents_then_unified_stricter_score_improvement"
+  ]
+}

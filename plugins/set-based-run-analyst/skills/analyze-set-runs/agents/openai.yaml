@@ -1,0 +1,4 @@
+interface:
+  display_name: "Set-Based Run Analyst"
+  short_description: "Blind EDT and ERL report analysis"
+  default_prompt: "Analyze this EDT/ERL report using blind ingestion and explain mixture/reference separation, pruning, and evidence limits."

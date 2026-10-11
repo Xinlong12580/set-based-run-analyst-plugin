@@ -1,0 +1,12 @@
+{
+  "name": "set-based-run-analyst-local",
+  "interface": {"displayName": "Set-Based Run Analyst (Local)"},
+  "plugins": [
+    {
+      "name": "set-based-run-analyst",
+      "source": {"source": "local", "path": "./plugins/set-based-run-analyst"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Productivity"
+    }
+  ]
+}

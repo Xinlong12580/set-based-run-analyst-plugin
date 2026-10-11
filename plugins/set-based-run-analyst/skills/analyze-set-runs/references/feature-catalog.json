@@ -1,0 +1,5255 @@
+{
+  "event": [
+    {
+      "name": "n_electrons",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_Electron_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_Electron_PT",
+        "pt_threshold_GeV": 0.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_muons",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_MuonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_MuonTight_PT",
+        "pt_threshold_GeV": 0.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_photons",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PhotonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_PhotonTight_PT",
+        "pt_threshold_GeV": 0.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_jets",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_JetPuppiAK4_PT",
+        "pt_threshold_GeV": 0.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_electrons_pt10",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_Electron_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_Electron_PT",
+        "pt_threshold_GeV": 10.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_electrons_pt20",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_Electron_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_Electron_PT",
+        "pt_threshold_GeV": 20.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_electrons_pt30",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_Electron_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_Electron_PT",
+        "pt_threshold_GeV": 30.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_electrons_pt50",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_Electron_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_Electron_PT",
+        "pt_threshold_GeV": 50.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_muons_pt5",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_MuonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_MuonTight_PT",
+        "pt_threshold_GeV": 5.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_muons_pt10",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_MuonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_MuonTight_PT",
+        "pt_threshold_GeV": 10.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_muons_pt20",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_MuonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_MuonTight_PT",
+        "pt_threshold_GeV": 20.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_muons_pt40",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_MuonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_MuonTight_PT",
+        "pt_threshold_GeV": 40.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_photons_pt10",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PhotonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_PhotonTight_PT",
+        "pt_threshold_GeV": 10.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_photons_pt20",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PhotonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_PhotonTight_PT",
+        "pt_threshold_GeV": 20.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_photons_pt30",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PhotonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_PhotonTight_PT",
+        "pt_threshold_GeV": 30.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_photons_pt50",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PhotonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_PhotonTight_PT",
+        "pt_threshold_GeV": 50.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_jets_pt20",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_JetPuppiAK4_PT",
+        "pt_threshold_GeV": 20.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_jets_pt30",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_JetPuppiAK4_PT",
+        "pt_threshold_GeV": 30.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_jets_pt50",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_JetPuppiAK4_PT",
+        "pt_threshold_GeV": 50.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "n_jets_pt100",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_JetPuppiAK4_PT",
+        "pt_threshold_GeV": 100.0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "sum_pt_electrons",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_Electron_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_Electron_PT",
+        "aggregation": "scalar_sum",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "sum_pt_muons",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_MuonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_MuonTight_PT",
+        "aggregation": "scalar_sum",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "sum_pt_photons",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PhotonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_PhotonTight_PT",
+        "aggregation": "scalar_sum",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "sum_pt_jets",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_JetPuppiAK4_PT",
+        "aggregation": "scalar_sum",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "sum_pt_all_objects",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_MuonTight_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "aggregation": "scalar_sum",
+        "pt_threshold_GeV": 0,
+        "finite_pt_required": true,
+        "comparison": ">",
+        "object_truncation": false,
+        "overlap_removal": false
+      }
+    },
+    {
+      "name": "met",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PUPPIMET_MET"
+      ],
+      "definition": {
+        "raw_column": "L1T_PUPPIMET_MET",
+        "invalid_fill": 0,
+        "validity_feature": "met_valid",
+        "zero_is_valid": true
+      }
+    },
+    {
+      "name": "met_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_PUPPIMET_MET"
+      ],
+      "definition": {
+        "formula": "MET exists, is finite and >= 0"
+      }
+    },
+    {
+      "name": "sum_pt_over_met",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_MuonTight_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_PUPPIMET_MET"
+      ],
+      "definition": {
+        "formula": "sum_pt_all_objects / met",
+        "invalid_fill": 0,
+        "validity_feature": "sum_pt_over_met_valid",
+        "requires": "finite nonnegative MET strictly above zero and finite ratio"
+      }
+    },
+    {
+      "name": "sum_pt_over_met_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_MuonTight_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_PUPPIMET_MET"
+      ],
+      "definition": {
+        "formula": "finite nonnegative MET strictly above zero and finite ratio"
+      }
+    },
+    {
+      "name": "leading_pt_electrons",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_Electron_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_Electron_PT",
+        "rank": 1,
+        "order": "descending",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "missing_fill": 0,
+        "presence_condition": "n_electrons >= 1",
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "subleading_pt_electrons",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_Electron_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_Electron_PT",
+        "rank": 2,
+        "order": "descending",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "missing_fill": 0,
+        "presence_condition": "n_electrons >= 2",
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "leading_pt_muons",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_MuonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_MuonTight_PT",
+        "rank": 1,
+        "order": "descending",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "missing_fill": 0,
+        "presence_condition": "n_muons >= 1",
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "subleading_pt_muons",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_MuonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_MuonTight_PT",
+        "rank": 2,
+        "order": "descending",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "missing_fill": 0,
+        "presence_condition": "n_muons >= 2",
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "leading_pt_photons",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PhotonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_PhotonTight_PT",
+        "rank": 1,
+        "order": "descending",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "missing_fill": 0,
+        "presence_condition": "n_photons >= 1",
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "subleading_pt_photons",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PhotonTight_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_PhotonTight_PT",
+        "rank": 2,
+        "order": "descending",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "missing_fill": 0,
+        "presence_condition": "n_photons >= 2",
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "leading_pt_jets",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_JetPuppiAK4_PT",
+        "rank": 1,
+        "order": "descending",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "missing_fill": 0,
+        "presence_condition": "n_jets >= 1",
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "subleading_pt_jets",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "raw_column": "L1T_JetPuppiAK4_PT",
+        "rank": 2,
+        "order": "descending",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "finite_pt_required": true,
+        "object_truncation": false,
+        "missing_fill": 0,
+        "presence_condition": "n_jets >= 2",
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "leading_pt_fraction_electrons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT"
+      ],
+      "definition": {
+        "formula": "leading_pt_electrons / sum_pt_electrons",
+        "validity_feature": "leading_pt_fraction_electrons_valid",
+        "presence_condition": "n_electrons >= 1",
+        "raw_column": "L1T_Electron_PT",
+        "invalid_fill": 0,
+        "finite_positive_pt_only": true,
+        "object_truncation": false
+      }
+    },
+    {
+      "name": "leading_pt_fraction_electrons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT"
+      ],
+      "definition": {
+        "requires": "n_electrons >= 1",
+        "finite_ratio_required": true
+      }
+    },
+    {
+      "name": "pt_balance_electrons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT"
+      ],
+      "definition": {
+        "formula": "subleading_pt_electrons / leading_pt_electrons",
+        "validity_feature": "pt_balance_electrons_valid",
+        "presence_condition": "n_electrons >= 2",
+        "raw_column": "L1T_Electron_PT",
+        "invalid_fill": 0,
+        "finite_positive_pt_only": true,
+        "object_truncation": false
+      }
+    },
+    {
+      "name": "pt_balance_electrons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT"
+      ],
+      "definition": {
+        "requires": "n_electrons >= 2",
+        "finite_ratio_required": true
+      }
+    },
+    {
+      "name": "leading_pt_fraction_muons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT"
+      ],
+      "definition": {
+        "formula": "leading_pt_muons / sum_pt_muons",
+        "validity_feature": "leading_pt_fraction_muons_valid",
+        "presence_condition": "n_muons >= 1",
+        "raw_column": "L1T_MuonTight_PT",
+        "invalid_fill": 0,
+        "finite_positive_pt_only": true,
+        "object_truncation": false
+      }
+    },
+    {
+      "name": "leading_pt_fraction_muons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT"
+      ],
+      "definition": {
+        "requires": "n_muons >= 1",
+        "finite_ratio_required": true
+      }
+    },
+    {
+      "name": "pt_balance_muons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT"
+      ],
+      "definition": {
+        "formula": "subleading_pt_muons / leading_pt_muons",
+        "validity_feature": "pt_balance_muons_valid",
+        "presence_condition": "n_muons >= 2",
+        "raw_column": "L1T_MuonTight_PT",
+        "invalid_fill": 0,
+        "finite_positive_pt_only": true,
+        "object_truncation": false
+      }
+    },
+    {
+      "name": "pt_balance_muons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT"
+      ],
+      "definition": {
+        "requires": "n_muons >= 2",
+        "finite_ratio_required": true
+      }
+    },
+    {
+      "name": "leading_pt_fraction_photons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT"
+      ],
+      "definition": {
+        "formula": "leading_pt_photons / sum_pt_photons",
+        "validity_feature": "leading_pt_fraction_photons_valid",
+        "presence_condition": "n_photons >= 1",
+        "raw_column": "L1T_PhotonTight_PT",
+        "invalid_fill": 0,
+        "finite_positive_pt_only": true,
+        "object_truncation": false
+      }
+    },
+    {
+      "name": "leading_pt_fraction_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT"
+      ],
+      "definition": {
+        "requires": "n_photons >= 1",
+        "finite_ratio_required": true
+      }
+    },
+    {
+      "name": "pt_balance_photons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT"
+      ],
+      "definition": {
+        "formula": "subleading_pt_photons / leading_pt_photons",
+        "validity_feature": "pt_balance_photons_valid",
+        "presence_condition": "n_photons >= 2",
+        "raw_column": "L1T_PhotonTight_PT",
+        "invalid_fill": 0,
+        "finite_positive_pt_only": true,
+        "object_truncation": false
+      }
+    },
+    {
+      "name": "pt_balance_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT"
+      ],
+      "definition": {
+        "requires": "n_photons >= 2",
+        "finite_ratio_required": true
+      }
+    },
+    {
+      "name": "leading_pt_fraction_jets",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "formula": "leading_pt_jets / sum_pt_jets",
+        "validity_feature": "leading_pt_fraction_jets_valid",
+        "presence_condition": "n_jets >= 1",
+        "raw_column": "L1T_JetPuppiAK4_PT",
+        "invalid_fill": 0,
+        "finite_positive_pt_only": true,
+        "object_truncation": false
+      }
+    },
+    {
+      "name": "leading_pt_fraction_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "requires": "n_jets >= 1",
+        "finite_ratio_required": true
+      }
+    },
+    {
+      "name": "pt_balance_jets",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "formula": "subleading_pt_jets / leading_pt_jets",
+        "validity_feature": "pt_balance_jets_valid",
+        "presence_condition": "n_jets >= 2",
+        "raw_column": "L1T_JetPuppiAK4_PT",
+        "invalid_fill": 0,
+        "finite_positive_pt_only": true,
+        "object_truncation": false
+      }
+    },
+    {
+      "name": "pt_balance_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT"
+      ],
+      "definition": {
+        "requires": "n_jets >= 2",
+        "finite_ratio_required": true
+      }
+    },
+    {
+      "name": "leading_abs_eta_electrons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_Eta"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_Electron_PT",
+        "raw_eta_column": "L1T_Electron_Eta",
+        "rank": 1,
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "finite_eta_required": true,
+        "invalid_fill": 0,
+        "validity_feature": "leading_abs_eta_electrons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "leading_abs_eta_electrons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_Eta"
+      ],
+      "definition": {
+        "formula": "PT-ranked object exists and its eta is finite",
+        "rank": 1,
+        "tie_break": "producer order"
+      }
+    },
+    {
+      "name": "subleading_abs_eta_electrons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_Eta"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_Electron_PT",
+        "raw_eta_column": "L1T_Electron_Eta",
+        "rank": 2,
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "finite_eta_required": true,
+        "invalid_fill": 0,
+        "validity_feature": "subleading_abs_eta_electrons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "subleading_abs_eta_electrons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_Eta"
+      ],
+      "definition": {
+        "formula": "PT-ranked object exists and its eta is finite",
+        "rank": 2,
+        "tie_break": "producer order"
+      }
+    },
+    {
+      "name": "leading_abs_eta_muons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_Eta"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_MuonTight_PT",
+        "raw_eta_column": "L1T_MuonTight_Eta",
+        "rank": 1,
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "finite_eta_required": true,
+        "invalid_fill": 0,
+        "validity_feature": "leading_abs_eta_muons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "leading_abs_eta_muons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_Eta"
+      ],
+      "definition": {
+        "formula": "PT-ranked object exists and its eta is finite",
+        "rank": 1,
+        "tie_break": "producer order"
+      }
+    },
+    {
+      "name": "subleading_abs_eta_muons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_Eta"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_MuonTight_PT",
+        "raw_eta_column": "L1T_MuonTight_Eta",
+        "rank": 2,
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "finite_eta_required": true,
+        "invalid_fill": 0,
+        "validity_feature": "subleading_abs_eta_muons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "subleading_abs_eta_muons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_Eta"
+      ],
+      "definition": {
+        "formula": "PT-ranked object exists and its eta is finite",
+        "rank": 2,
+        "tie_break": "producer order"
+      }
+    },
+    {
+      "name": "leading_abs_eta_photons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_PhotonTight_Eta"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PhotonTight_PT",
+        "raw_eta_column": "L1T_PhotonTight_Eta",
+        "rank": 1,
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "finite_eta_required": true,
+        "invalid_fill": 0,
+        "validity_feature": "leading_abs_eta_photons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "leading_abs_eta_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_PhotonTight_Eta"
+      ],
+      "definition": {
+        "formula": "PT-ranked object exists and its eta is finite",
+        "rank": 1,
+        "tie_break": "producer order"
+      }
+    },
+    {
+      "name": "subleading_abs_eta_photons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_PhotonTight_Eta"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PhotonTight_PT",
+        "raw_eta_column": "L1T_PhotonTight_Eta",
+        "rank": 2,
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "finite_eta_required": true,
+        "invalid_fill": 0,
+        "validity_feature": "subleading_abs_eta_photons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "subleading_abs_eta_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_PhotonTight_Eta"
+      ],
+      "definition": {
+        "formula": "PT-ranked object exists and its eta is finite",
+        "rank": 2,
+        "tie_break": "producer order"
+      }
+    },
+    {
+      "name": "leading_abs_eta_jets",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Eta"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_JetPuppiAK4_PT",
+        "raw_eta_column": "L1T_JetPuppiAK4_Eta",
+        "rank": 1,
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "finite_eta_required": true,
+        "invalid_fill": 0,
+        "validity_feature": "leading_abs_eta_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "leading_abs_eta_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Eta"
+      ],
+      "definition": {
+        "formula": "PT-ranked object exists and its eta is finite",
+        "rank": 1,
+        "tie_break": "producer order"
+      }
+    },
+    {
+      "name": "subleading_abs_eta_jets",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Eta"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_JetPuppiAK4_PT",
+        "raw_eta_column": "L1T_JetPuppiAK4_Eta",
+        "rank": 2,
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "finite_eta_required": true,
+        "invalid_fill": 0,
+        "validity_feature": "subleading_abs_eta_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "subleading_abs_eta_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Eta"
+      ],
+      "definition": {
+        "formula": "PT-ranked object exists and its eta is finite",
+        "rank": 2,
+        "tie_break": "producer order"
+      }
+    },
+    {
+      "name": "abs_delta_eta_electrons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_Eta"
+      ],
+      "definition": {
+        "formula": "abs(eta_first - eta_second)",
+        "pair": "PT-leading and PT-subleading objects",
+        "object_types": [
+          "electrons",
+          "electrons"
+        ],
+        "ranks": [
+          1,
+          2
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_eta_electrons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_eta_electrons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_Eta"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_phi_electrons",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_first - phi_second), cos(phi_first - phi_second)))",
+        "pair": "PT-leading and PT-subleading objects",
+        "object_types": [
+          "electrons",
+          "electrons"
+        ],
+        "ranks": [
+          1,
+          2
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_phi_electrons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_phi_electrons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "delta_r_electrons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_Eta",
+        "L1T_Electron_Phi"
+      ],
+      "definition": {
+        "formula": "hypot(abs_delta_eta, abs_delta_phi)",
+        "pair": "PT-leading and PT-subleading objects",
+        "object_types": [
+          "electrons",
+          "electrons"
+        ],
+        "ranks": [
+          1,
+          2
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "delta_r_electrons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_r_electrons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_Eta",
+        "L1T_Electron_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_eta_muons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_Eta"
+      ],
+      "definition": {
+        "formula": "abs(eta_first - eta_second)",
+        "pair": "PT-leading and PT-subleading objects",
+        "object_types": [
+          "muons",
+          "muons"
+        ],
+        "ranks": [
+          1,
+          2
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_eta_muons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_eta_muons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_Eta"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_phi_muons",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_first - phi_second), cos(phi_first - phi_second)))",
+        "pair": "PT-leading and PT-subleading objects",
+        "object_types": [
+          "muons",
+          "muons"
+        ],
+        "ranks": [
+          1,
+          2
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_phi_muons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_phi_muons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "delta_r_muons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_Eta",
+        "L1T_MuonTight_Phi"
+      ],
+      "definition": {
+        "formula": "hypot(abs_delta_eta, abs_delta_phi)",
+        "pair": "PT-leading and PT-subleading objects",
+        "object_types": [
+          "muons",
+          "muons"
+        ],
+        "ranks": [
+          1,
+          2
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "delta_r_muons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_r_muons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_Eta",
+        "L1T_MuonTight_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_eta_photons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_PhotonTight_Eta"
+      ],
+      "definition": {
+        "formula": "abs(eta_first - eta_second)",
+        "pair": "PT-leading and PT-subleading objects",
+        "object_types": [
+          "photons",
+          "photons"
+        ],
+        "ranks": [
+          1,
+          2
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_eta_photons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_eta_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_PhotonTight_Eta"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_phi_photons",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_PhotonTight_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_first - phi_second), cos(phi_first - phi_second)))",
+        "pair": "PT-leading and PT-subleading objects",
+        "object_types": [
+          "photons",
+          "photons"
+        ],
+        "ranks": [
+          1,
+          2
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_phi_photons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_phi_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_PhotonTight_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "delta_r_photons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_PhotonTight_Eta",
+        "L1T_PhotonTight_Phi"
+      ],
+      "definition": {
+        "formula": "hypot(abs_delta_eta, abs_delta_phi)",
+        "pair": "PT-leading and PT-subleading objects",
+        "object_types": [
+          "photons",
+          "photons"
+        ],
+        "ranks": [
+          1,
+          2
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "delta_r_photons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_r_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_PhotonTight_Eta",
+        "L1T_PhotonTight_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_eta_jets",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Eta"
+      ],
+      "definition": {
+        "formula": "abs(eta_first - eta_second)",
+        "pair": "PT-leading and PT-subleading objects",
+        "object_types": [
+          "jets",
+          "jets"
+        ],
+        "ranks": [
+          1,
+          2
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_eta_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_eta_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Eta"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_phi_jets",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_first - phi_second), cos(phi_first - phi_second)))",
+        "pair": "PT-leading and PT-subleading objects",
+        "object_types": [
+          "jets",
+          "jets"
+        ],
+        "ranks": [
+          1,
+          2
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_phi_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_phi_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "delta_r_jets",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Eta",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "formula": "hypot(abs_delta_eta, abs_delta_phi)",
+        "pair": "PT-leading and PT-subleading objects",
+        "object_types": [
+          "jets",
+          "jets"
+        ],
+        "ranks": [
+          1,
+          2
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "delta_r_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_r_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Eta",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_eta_leading_electrons_muons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_MuonTight_PT",
+        "L1T_Electron_Eta",
+        "L1T_MuonTight_Eta"
+      ],
+      "definition": {
+        "formula": "abs(eta_first - eta_second)",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "electrons",
+          "muons"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_eta_leading_electrons_muons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_eta_leading_electrons_muons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_MuonTight_PT",
+        "L1T_Electron_Eta",
+        "L1T_MuonTight_Eta"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_phi_leading_electrons_muons",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_MuonTight_PT",
+        "L1T_Electron_Phi",
+        "L1T_MuonTight_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_first - phi_second), cos(phi_first - phi_second)))",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "electrons",
+          "muons"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_phi_leading_electrons_muons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_phi_leading_electrons_muons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_MuonTight_PT",
+        "L1T_Electron_Phi",
+        "L1T_MuonTight_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "delta_r_leading_electrons_muons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_MuonTight_PT",
+        "L1T_Electron_Eta",
+        "L1T_MuonTight_Eta",
+        "L1T_Electron_Phi",
+        "L1T_MuonTight_Phi"
+      ],
+      "definition": {
+        "formula": "hypot(abs_delta_eta, abs_delta_phi)",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "electrons",
+          "muons"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "delta_r_leading_electrons_muons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_r_leading_electrons_muons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_MuonTight_PT",
+        "L1T_Electron_Eta",
+        "L1T_MuonTight_Eta",
+        "L1T_Electron_Phi",
+        "L1T_MuonTight_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_eta_leading_electrons_photons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_Electron_Eta",
+        "L1T_PhotonTight_Eta"
+      ],
+      "definition": {
+        "formula": "abs(eta_first - eta_second)",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "electrons",
+          "photons"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_eta_leading_electrons_photons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_eta_leading_electrons_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_Electron_Eta",
+        "L1T_PhotonTight_Eta"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_phi_leading_electrons_photons",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_Electron_Phi",
+        "L1T_PhotonTight_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_first - phi_second), cos(phi_first - phi_second)))",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "electrons",
+          "photons"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_phi_leading_electrons_photons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_phi_leading_electrons_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_Electron_Phi",
+        "L1T_PhotonTight_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "delta_r_leading_electrons_photons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_Electron_Eta",
+        "L1T_PhotonTight_Eta",
+        "L1T_Electron_Phi",
+        "L1T_PhotonTight_Phi"
+      ],
+      "definition": {
+        "formula": "hypot(abs_delta_eta, abs_delta_phi)",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "electrons",
+          "photons"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "delta_r_leading_electrons_photons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_r_leading_electrons_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_Electron_Eta",
+        "L1T_PhotonTight_Eta",
+        "L1T_Electron_Phi",
+        "L1T_PhotonTight_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_eta_leading_electrons_jets",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_Electron_Eta",
+        "L1T_JetPuppiAK4_Eta"
+      ],
+      "definition": {
+        "formula": "abs(eta_first - eta_second)",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "electrons",
+          "jets"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_eta_leading_electrons_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_eta_leading_electrons_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_Electron_Eta",
+        "L1T_JetPuppiAK4_Eta"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_phi_leading_electrons_jets",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_Electron_Phi",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_first - phi_second), cos(phi_first - phi_second)))",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "electrons",
+          "jets"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_phi_leading_electrons_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_phi_leading_electrons_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_Electron_Phi",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "delta_r_leading_electrons_jets",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_Electron_Eta",
+        "L1T_JetPuppiAK4_Eta",
+        "L1T_Electron_Phi",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "formula": "hypot(abs_delta_eta, abs_delta_phi)",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "electrons",
+          "jets"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "delta_r_leading_electrons_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_r_leading_electrons_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_Electron_Eta",
+        "L1T_JetPuppiAK4_Eta",
+        "L1T_Electron_Phi",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_eta_leading_muons_photons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_MuonTight_Eta",
+        "L1T_PhotonTight_Eta"
+      ],
+      "definition": {
+        "formula": "abs(eta_first - eta_second)",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "muons",
+          "photons"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_eta_leading_muons_photons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_eta_leading_muons_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_MuonTight_Eta",
+        "L1T_PhotonTight_Eta"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_phi_leading_muons_photons",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_MuonTight_Phi",
+        "L1T_PhotonTight_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_first - phi_second), cos(phi_first - phi_second)))",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "muons",
+          "photons"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_phi_leading_muons_photons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_phi_leading_muons_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_MuonTight_Phi",
+        "L1T_PhotonTight_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "delta_r_leading_muons_photons",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_MuonTight_Eta",
+        "L1T_PhotonTight_Eta",
+        "L1T_MuonTight_Phi",
+        "L1T_PhotonTight_Phi"
+      ],
+      "definition": {
+        "formula": "hypot(abs_delta_eta, abs_delta_phi)",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "muons",
+          "photons"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "delta_r_leading_muons_photons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_r_leading_muons_photons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_PhotonTight_PT",
+        "L1T_MuonTight_Eta",
+        "L1T_PhotonTight_Eta",
+        "L1T_MuonTight_Phi",
+        "L1T_PhotonTight_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_eta_leading_muons_jets",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_MuonTight_Eta",
+        "L1T_JetPuppiAK4_Eta"
+      ],
+      "definition": {
+        "formula": "abs(eta_first - eta_second)",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "muons",
+          "jets"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_eta_leading_muons_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_eta_leading_muons_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_MuonTight_Eta",
+        "L1T_JetPuppiAK4_Eta"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_phi_leading_muons_jets",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_MuonTight_Phi",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_first - phi_second), cos(phi_first - phi_second)))",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "muons",
+          "jets"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_phi_leading_muons_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_phi_leading_muons_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_MuonTight_Phi",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "delta_r_leading_muons_jets",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_MuonTight_Eta",
+        "L1T_JetPuppiAK4_Eta",
+        "L1T_MuonTight_Phi",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "formula": "hypot(abs_delta_eta, abs_delta_phi)",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "muons",
+          "jets"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "delta_r_leading_muons_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_r_leading_muons_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_MuonTight_Eta",
+        "L1T_JetPuppiAK4_Eta",
+        "L1T_MuonTight_Phi",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_eta_leading_photons_jets",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_PhotonTight_Eta",
+        "L1T_JetPuppiAK4_Eta"
+      ],
+      "definition": {
+        "formula": "abs(eta_first - eta_second)",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "photons",
+          "jets"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_eta_leading_photons_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_eta_leading_photons_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_PhotonTight_Eta",
+        "L1T_JetPuppiAK4_Eta"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "abs_delta_phi_leading_photons_jets",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_PhotonTight_Phi",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_first - phi_second), cos(phi_first - phi_second)))",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "photons",
+          "jets"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "abs_delta_phi_leading_photons_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "abs_delta_phi_leading_photons_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_PhotonTight_Phi",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "delta_r_leading_photons_jets",
+      "kind": "continuous",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_PhotonTight_Eta",
+        "L1T_JetPuppiAK4_Eta",
+        "L1T_PhotonTight_Phi",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "formula": "hypot(abs_delta_eta, abs_delta_phi)",
+        "pair": "PT-leading object of each type",
+        "object_types": [
+          "photons",
+          "jets"
+        ],
+        "ranks": [
+          1,
+          1
+        ],
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "invalid_fill": 0,
+        "validity_feature": "delta_r_leading_photons_jets_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_r_leading_photons_jets_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_JetPuppiAK4_PT",
+        "L1T_PhotonTight_Eta",
+        "L1T_JetPuppiAK4_Eta",
+        "L1T_PhotonTight_Phi",
+        "L1T_JetPuppiAK4_Phi"
+      ],
+      "definition": {
+        "requires": "two finite positive PT objects, finite required angular coordinates and a finite separation"
+      }
+    },
+    {
+      "name": "delta_phi_leading_jet_met",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Phi",
+        "L1T_PUPPIMET_MET",
+        "L1T_PUPPIMET_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_object - phi_met), cos(phi_object - phi_met)))",
+        "object_type": "jets",
+        "selection": "PT-leading object",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "tie_break": "producer order",
+        "requires": "finite positive MET, finite MET phi and selected object phi",
+        "invalid_fill": 0,
+        "validity_feature": "delta_phi_leading_jet_met_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_phi_leading_jet_met_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Phi",
+        "L1T_PUPPIMET_MET",
+        "L1T_PUPPIMET_Phi"
+      ],
+      "definition": {
+        "requires": "finite positive MET, finite MET phi and selected object phi",
+        "selection": "PT-leading object"
+      }
+    },
+    {
+      "name": "min_delta_phi_jets_met",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Phi",
+        "L1T_PUPPIMET_MET",
+        "L1T_PUPPIMET_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_object - phi_met), cos(phi_object - phi_met)))",
+        "object_type": "jets",
+        "selection": "minimum over all finite positive-PT jets with finite phi",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "tie_break": "producer order",
+        "requires": "finite positive MET, finite MET phi and selected object phi",
+        "invalid_fill": 0,
+        "validity_feature": "min_delta_phi_jets_met_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "min_delta_phi_jets_met_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_JetPuppiAK4_PT",
+        "L1T_JetPuppiAK4_Phi",
+        "L1T_PUPPIMET_MET",
+        "L1T_PUPPIMET_Phi"
+      ],
+      "definition": {
+        "requires": "finite positive MET, finite MET phi and selected object phi",
+        "selection": "minimum over all finite positive-PT jets with finite phi"
+      }
+    },
+    {
+      "name": "delta_phi_leading_photon_met",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_PhotonTight_Phi",
+        "L1T_PUPPIMET_MET",
+        "L1T_PUPPIMET_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_object - phi_met), cos(phi_object - phi_met)))",
+        "object_type": "photons",
+        "selection": "PT-leading object",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "tie_break": "producer order",
+        "requires": "finite positive MET, finite MET phi and selected object phi",
+        "invalid_fill": 0,
+        "validity_feature": "delta_phi_leading_photon_met_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_phi_leading_photon_met_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_PhotonTight_PT",
+        "L1T_PhotonTight_Phi",
+        "L1T_PUPPIMET_MET",
+        "L1T_PUPPIMET_Phi"
+      ],
+      "definition": {
+        "requires": "finite positive MET, finite MET phi and selected object phi",
+        "selection": "PT-leading object"
+      }
+    },
+    {
+      "name": "delta_phi_leading_electron_met",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_Phi",
+        "L1T_PUPPIMET_MET",
+        "L1T_PUPPIMET_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_object - phi_met), cos(phi_object - phi_met)))",
+        "object_type": "electrons",
+        "selection": "PT-leading object",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "tie_break": "producer order",
+        "requires": "finite positive MET, finite MET phi and selected object phi",
+        "invalid_fill": 0,
+        "validity_feature": "delta_phi_leading_electron_met_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_phi_leading_electron_met_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_Phi",
+        "L1T_PUPPIMET_MET",
+        "L1T_PUPPIMET_Phi"
+      ],
+      "definition": {
+        "requires": "finite positive MET, finite MET phi and selected object phi",
+        "selection": "PT-leading object"
+      }
+    },
+    {
+      "name": "delta_phi_leading_muon_met",
+      "kind": "continuous",
+      "units": "rad",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_Phi",
+        "L1T_PUPPIMET_MET",
+        "L1T_PUPPIMET_Phi"
+      ],
+      "definition": {
+        "formula": "abs(atan2(sin(phi_object - phi_met), cos(phi_object - phi_met)))",
+        "object_type": "muons",
+        "selection": "PT-leading object",
+        "pt_threshold_GeV": 0,
+        "comparison": ">",
+        "tie_break": "producer order",
+        "requires": "finite positive MET, finite MET phi and selected object phi",
+        "invalid_fill": 0,
+        "validity_feature": "delta_phi_leading_muon_met_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "delta_phi_leading_muon_met_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_Phi",
+        "L1T_PUPPIMET_MET",
+        "L1T_PUPPIMET_Phi"
+      ],
+      "definition": {
+        "requires": "finite positive MET, finite MET phi and selected object phi",
+        "selection": "PT-leading object"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "pt_min_GeV": 2.0,
+        "pt_max_GeV": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "pt_weighting": "none",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "pt_min_GeV": 2.0,
+        "pt_max_GeV": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "pt_weighting": "none",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_lt5",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "pt_min_GeV": 2.0,
+        "pt_max_GeV": 5.0,
+        "lower_comparison": ">",
+        "upper_comparison": "<",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "pt_weighting": "none",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_lt5",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "pt_min_GeV": 2.0,
+        "pt_max_GeV": 5.0,
+        "lower_comparison": ">",
+        "upper_comparison": "<",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "pt_weighting": "none",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_lt10",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "pt_min_GeV": 2.0,
+        "pt_max_GeV": 10.0,
+        "lower_comparison": ">",
+        "upper_comparison": "<",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "pt_weighting": "none",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_lt10",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "pt_min_GeV": 2.0,
+        "pt_max_GeV": 10.0,
+        "lower_comparison": ">",
+        "upper_comparison": "<",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "pt_weighting": "none",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt10",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "pt_min_GeV": 10.0,
+        "pt_max_GeV": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "pt_weighting": "none",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt10",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "pt_min_GeV": 10.0,
+        "pt_max_GeV": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "pt_weighting": "none",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxy_mm_ge0_lt0p1",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 0,
+        "upper_bound": 0.1,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxy_mm_ge0_lt0p1",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 0,
+        "upper_bound": 0.1,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxy_mm_ge0p1_lt0p5",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 0.1,
+        "upper_bound": 0.5,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxy_mm_ge0p1_lt0p5",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 0.1,
+        "upper_bound": 0.5,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxy_mm_ge0p5_lt1",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 0.5,
+        "upper_bound": 1,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxy_mm_ge0p5_lt1",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 0.5,
+        "upper_bound": 1,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxy_mm_ge1_lt5",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 1,
+        "upper_bound": 5,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxy_mm_ge1_lt5",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 1,
+        "upper_bound": 5,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxy_mm_ge5_lt10",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 5,
+        "upper_bound": 10,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxy_mm_ge5_lt10",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 5,
+        "upper_bound": 10,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxy_mm_ge10",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 10,
+        "upper_bound": null,
+        "lower_comparison": ">=",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxy_mm_ge10",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 10,
+        "upper_bound": null,
+        "lower_comparison": ">=",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxysig_ge0_lt2",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 0,
+        "upper_bound": 2,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxysig_ge0_lt2",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 0,
+        "upper_bound": 2,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxysig_ge2_lt3",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 2,
+        "upper_bound": 3,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxysig_ge2_lt3",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 2,
+        "upper_bound": 3,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxysig_ge3_lt5",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 3,
+        "upper_bound": 5,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxysig_ge3_lt5",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 3,
+        "upper_bound": 5,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxysig_ge5_lt10",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 5,
+        "upper_bound": 10,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxysig_ge5_lt10",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 5,
+        "upper_bound": 10,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxysig_ge10_lt20",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 10,
+        "upper_bound": 20,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxysig_ge10_lt20",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 10,
+        "upper_bound": 20,
+        "lower_comparison": ">=",
+        "upper_comparison": "<",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxysig_ge20",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 20,
+        "upper_bound": null,
+        "lower_comparison": ">=",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxysig_ge20",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 20,
+        "upper_bound": null,
+        "lower_comparison": ">=",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxy_mm_gt0p5",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 0.5,
+        "upper_bound": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxy_mm_gt0p5",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 0.5,
+        "upper_bound": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxy_mm_gt1",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 1,
+        "upper_bound": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxy_mm_gt1",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 1,
+        "upper_bound": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxy_mm_gt5",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 5,
+        "upper_bound": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxy_mm_gt5",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0)",
+        "range_units": "mm",
+        "lower_bound": 5,
+        "upper_bound": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxysig_gt3",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxysig_gt3",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 3,
+        "upper_bound": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxysig_gt5",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 5,
+        "upper_bound": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxysig_gt5",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 5,
+        "upper_bound": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxysig_gt10",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 10,
+        "upper_bound": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "count"
+      }
+    },
+    {
+      "name": "sum_pt_charged_pf_pt_gt2_abs_dxysig_gt10",
+      "kind": "continuous",
+      "units": "GeV",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_PFPart_PT",
+        "raw_charge_column": "L1T_PFPart_Charge",
+        "raw_d0_column": "L1T_PFPart_D0",
+        "raw_d0_units": "mm",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "formula": "abs(D0) / ErrorD0",
+        "range_units": "1",
+        "lower_bound": 10,
+        "upper_bound": null,
+        "lower_comparison": ">",
+        "upper_comparison": null,
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "pt_weighting": "none",
+        "charge_selection": "finite and nonzero",
+        "finite_pt_required": true,
+        "invalid_measurements": "excluded",
+        "vertex_selection": null,
+        "additional_cuts": null,
+        "candidate_truncation": false,
+        "raw_error_d0_column": "L1T_PFPart_ErrorD0",
+        "raw_error_d0_units": "mm",
+        "finite_positive_error_required": true,
+        "finite_ratio_required": true,
+        "denominator_regularization": null,
+        "aggregation": "scalar_sum"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxy_mm_invalid",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0"
+      ],
+      "definition": {
+        "observable": "abs_dxy_mm",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "charge_selection": "finite and nonzero",
+        "aggregation": "invalid_measurement_count",
+        "invalid_condition": "nonfinite D0",
+        "interpretation": "measurement availability diagnostic, not displaced particle count"
+      }
+    },
+    {
+      "name": "n_charged_pf_pt_gt2_abs_dxysig_invalid",
+      "kind": "ordinal",
+      "units": "count",
+      "required_columns": [
+        "L1T_PFPart_PT",
+        "L1T_PFPart_Charge",
+        "L1T_PFPart_D0",
+        "L1T_PFPart_ErrorD0"
+      ],
+      "definition": {
+        "observable": "abs_dxysig",
+        "pt_min_GeV": 2,
+        "pt_comparison": ">",
+        "charge_selection": "finite and nonzero",
+        "aggregation": "invalid_measurement_count",
+        "invalid_condition": "nonfinite D0 or nonfinite/nonpositive ErrorD0 or nonfinite ratio",
+        "interpretation": "measurement availability diagnostic, not displaced particle count"
+      }
+    },
+    {
+      "name": "leading_abs_dxy_mm_electrons",
+      "kind": "continuous",
+      "units": "mm",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_Electron_PT",
+        "raw_d0_column": "L1T_Electron_D0",
+        "raw_d0_units": "mm",
+        "formula": "abs(D0)",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "rank": 1,
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "finite_d0_required": true,
+        "invalid_fill": 0,
+        "validity_feature": "leading_abs_dxy_mm_electrons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "leading_abs_dxy_mm_electrons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_D0"
+      ],
+      "definition": {
+        "formula": "PT-ranked lepton exists and its D0 is finite",
+        "rank": 1,
+        "tie_break": "producer order",
+        "raw_pt_column": "L1T_Electron_PT",
+        "raw_d0_column": "L1T_Electron_D0"
+      }
+    },
+    {
+      "name": "subleading_abs_dxy_mm_electrons",
+      "kind": "continuous",
+      "units": "mm",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_Electron_PT",
+        "raw_d0_column": "L1T_Electron_D0",
+        "raw_d0_units": "mm",
+        "formula": "abs(D0)",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "rank": 2,
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "finite_d0_required": true,
+        "invalid_fill": 0,
+        "validity_feature": "subleading_abs_dxy_mm_electrons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "subleading_abs_dxy_mm_electrons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_Electron_PT",
+        "L1T_Electron_D0"
+      ],
+      "definition": {
+        "formula": "PT-ranked lepton exists and its D0 is finite",
+        "rank": 2,
+        "tie_break": "producer order",
+        "raw_pt_column": "L1T_Electron_PT",
+        "raw_d0_column": "L1T_Electron_D0"
+      }
+    },
+    {
+      "name": "leading_abs_dxy_mm_muons",
+      "kind": "continuous",
+      "units": "mm",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_MuonTight_PT",
+        "raw_d0_column": "L1T_MuonTight_D0",
+        "raw_d0_units": "mm",
+        "formula": "abs(D0)",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "rank": 1,
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "finite_d0_required": true,
+        "invalid_fill": 0,
+        "validity_feature": "leading_abs_dxy_mm_muons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "leading_abs_dxy_mm_muons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_D0"
+      ],
+      "definition": {
+        "formula": "PT-ranked lepton exists and its D0 is finite",
+        "rank": 1,
+        "tie_break": "producer order",
+        "raw_pt_column": "L1T_MuonTight_PT",
+        "raw_d0_column": "L1T_MuonTight_D0"
+      }
+    },
+    {
+      "name": "subleading_abs_dxy_mm_muons",
+      "kind": "continuous",
+      "units": "mm",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_D0"
+      ],
+      "definition": {
+        "raw_pt_column": "L1T_MuonTight_PT",
+        "raw_d0_column": "L1T_MuonTight_D0",
+        "raw_d0_units": "mm",
+        "formula": "abs(D0)",
+        "dxy_reference": "producer beam spot (origin if unavailable), not reconstructed PV",
+        "rank": 2,
+        "ranking": "descending finite positive PT",
+        "tie_break": "producer order",
+        "finite_d0_required": true,
+        "invalid_fill": 0,
+        "validity_feature": "subleading_abs_dxy_mm_muons_valid",
+        "object_truncation": false,
+        "additional_cuts": null
+      }
+    },
+    {
+      "name": "subleading_abs_dxy_mm_muons_valid",
+      "kind": "boolean",
+      "units": "1",
+      "required_columns": [
+        "L1T_MuonTight_PT",
+        "L1T_MuonTight_D0"
+      ],
+      "definition": {
+        "formula": "PT-ranked lepton exists and its D0 is finite",
+        "rank": 2,
+        "tie_break": "producer order",
+        "raw_pt_column": "L1T_MuonTight_PT",
+        "raw_d0_column": "L1T_MuonTight_D0"
+      }
+    }
+  ],
+  "obj": [
+    {
+      "name": "pt",
+      "kind": "continuous",
+      "units": "GeV"
+    },
+    {
+      "name": "eta",
+      "kind": "continuous",
+      "units": "1"
+    },
+    {
+      "name": "phi",
+      "kind": "continuous",
+      "units": "rad"
+    },
+    {
+      "name": "type_id",
+      "kind": "categorical",
+      "categories": {
+        "0": "jets",
+        "1": "muons",
+        "2": "electrons",
+        "3": "photons"
+      }
+    },
+    {
+      "name": "abs_d0",
+      "kind": "continuous",
+      "units": "mm",
+      "applicable_types": [
+        "muons",
+        "electrons"
+      ],
+      "raw_columns": {
+        "muons": [
+          "L1T_MuonTight_D0"
+        ],
+        "electrons": [
+          "L1T_Electron_D0"
+        ]
+      },
+      "definition": "abs(D0)",
+      "invalid_fill": 0,
+      "validity_column": "abs_d0_valid"
+    },
+    {
+      "name": "isolation_rho_corr",
+      "kind": "continuous",
+      "units": "1",
+      "applicable_types": [
+        "muons",
+        "electrons",
+        "photons"
+      ],
+      "raw_columns": {
+        "muons": [
+          "L1T_MuonTight_IsolationVarRhoCorr"
+        ],
+        "electrons": [
+          "L1T_Electron_IsolationVarRhoCorr"
+        ],
+        "photons": [
+          "L1T_PhotonTight_IsolationVarRhoCorr"
+        ]
+      },
+      "definition": "IsolationVarRhoCorr",
+      "invalid_fill": 0,
+      "validity_column": "isolation_rho_corr_valid"
+    },
+    {
+      "name": "mass",
+      "kind": "continuous",
+      "units": "GeV",
+      "applicable_types": [
+        "jets"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_Mass"
+        ]
+      },
+      "definition": "Mass",
+      "invalid_fill": 0,
+      "validity_column": "mass_valid"
+    },
+    {
+      "name": "n_charged",
+      "kind": "ordinal",
+      "units": "count",
+      "applicable_types": [
+        "jets"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_NCharged"
+        ]
+      },
+      "definition": "NCharged",
+      "invalid_fill": 0,
+      "validity_column": "n_charged_valid"
+    },
+    {
+      "name": "n_neutrals",
+      "kind": "ordinal",
+      "units": "count",
+      "applicable_types": [
+        "jets"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_NNeutrals"
+        ]
+      },
+      "definition": "NNeutrals",
+      "invalid_fill": 0,
+      "validity_column": "n_neutrals_valid"
+    },
+    {
+      "name": "charged_fraction",
+      "kind": "continuous",
+      "units": "1",
+      "applicable_types": [
+        "jets"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_NCharged",
+          "L1T_JetPuppiAK4_NNeutrals"
+        ]
+      },
+      "definition": "NCharged / (NCharged + NNeutrals)",
+      "invalid_fill": 0,
+      "validity_column": "charged_fraction_valid"
+    },
+    {
+      "name": "ehad_over_eem",
+      "kind": "continuous",
+      "units": "1",
+      "applicable_types": [
+        "electrons",
+        "photons"
+      ],
+      "raw_columns": {
+        "electrons": [
+          "L1T_Electron_EhadOverEem"
+        ],
+        "photons": [
+          "L1T_PhotonTight_EhadOverEem"
+        ]
+      },
+      "definition": "EhadOverEem",
+      "invalid_fill": 0,
+      "validity_column": "ehad_over_eem_valid"
+    },
+    {
+      "name": "charge",
+      "kind": "ordinal",
+      "units": "e",
+      "applicable_types": [
+        "jets",
+        "muons",
+        "electrons"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_Charge"
+        ],
+        "muons": [
+          "L1T_MuonTight_Charge"
+        ],
+        "electrons": [
+          "L1T_Electron_Charge"
+        ]
+      },
+      "definition": "Charge",
+      "invalid_fill": 0,
+      "validity_column": "charge_valid"
+    },
+    {
+      "name": "abs_d0_valid",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "abs_d0"
+    },
+    {
+      "name": "isolation_rho_corr_valid",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "isolation_rho_corr"
+    },
+    {
+      "name": "mass_valid",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "mass"
+    },
+    {
+      "name": "n_charged_valid",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "n_charged"
+    },
+    {
+      "name": "n_neutrals_valid",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "n_neutrals"
+    },
+    {
+      "name": "charged_fraction_valid",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "charged_fraction"
+    },
+    {
+      "name": "ehad_over_eem_valid",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "ehad_over_eem"
+    },
+    {
+      "name": "charge_valid",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "charge"
+    }
+  ],
+  "pair_obj": [
+    {
+      "name": "pt_1",
+      "kind": "continuous",
+      "units": "GeV",
+      "pair_member": 1
+    },
+    {
+      "name": "eta_1",
+      "kind": "continuous",
+      "units": "1",
+      "pair_member": 1,
+      "validity_column": "eta_valid_1"
+    },
+    {
+      "name": "phi_1",
+      "kind": "continuous",
+      "units": "rad",
+      "pair_member": 1,
+      "validity_column": "phi_valid_1"
+    },
+    {
+      "name": "type_id_1",
+      "kind": "categorical",
+      "categories": {
+        "0": "jets",
+        "1": "muons",
+        "2": "electrons",
+        "3": "photons"
+      },
+      "pair_member": 1
+    },
+    {
+      "name": "abs_d0_1",
+      "kind": "continuous",
+      "units": "mm",
+      "applicable_types": [
+        "muons",
+        "electrons"
+      ],
+      "raw_columns": {
+        "muons": [
+          "L1T_MuonTight_D0"
+        ],
+        "electrons": [
+          "L1T_Electron_D0"
+        ]
+      },
+      "definition": "abs(D0)",
+      "invalid_fill": 0,
+      "validity_column": "abs_d0_valid_1",
+      "pair_member": 1
+    },
+    {
+      "name": "isolation_rho_corr_1",
+      "kind": "continuous",
+      "units": "1",
+      "applicable_types": [
+        "muons",
+        "electrons",
+        "photons"
+      ],
+      "raw_columns": {
+        "muons": [
+          "L1T_MuonTight_IsolationVarRhoCorr"
+        ],
+        "electrons": [
+          "L1T_Electron_IsolationVarRhoCorr"
+        ],
+        "photons": [
+          "L1T_PhotonTight_IsolationVarRhoCorr"
+        ]
+      },
+      "definition": "IsolationVarRhoCorr",
+      "invalid_fill": 0,
+      "validity_column": "isolation_rho_corr_valid_1",
+      "pair_member": 1
+    },
+    {
+      "name": "mass_1",
+      "kind": "continuous",
+      "units": "GeV",
+      "applicable_types": [
+        "jets"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_Mass"
+        ]
+      },
+      "definition": "Mass",
+      "invalid_fill": 0,
+      "validity_column": "mass_valid_1",
+      "pair_member": 1
+    },
+    {
+      "name": "n_charged_1",
+      "kind": "ordinal",
+      "units": "count",
+      "applicable_types": [
+        "jets"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_NCharged"
+        ]
+      },
+      "definition": "NCharged",
+      "invalid_fill": 0,
+      "validity_column": "n_charged_valid_1",
+      "pair_member": 1
+    },
+    {
+      "name": "n_neutrals_1",
+      "kind": "ordinal",
+      "units": "count",
+      "applicable_types": [
+        "jets"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_NNeutrals"
+        ]
+      },
+      "definition": "NNeutrals",
+      "invalid_fill": 0,
+      "validity_column": "n_neutrals_valid_1",
+      "pair_member": 1
+    },
+    {
+      "name": "charged_fraction_1",
+      "kind": "continuous",
+      "units": "1",
+      "applicable_types": [
+        "jets"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_NCharged",
+          "L1T_JetPuppiAK4_NNeutrals"
+        ]
+      },
+      "definition": "NCharged / (NCharged + NNeutrals)",
+      "invalid_fill": 0,
+      "validity_column": "charged_fraction_valid_1",
+      "pair_member": 1
+    },
+    {
+      "name": "ehad_over_eem_1",
+      "kind": "continuous",
+      "units": "1",
+      "applicable_types": [
+        "electrons",
+        "photons"
+      ],
+      "raw_columns": {
+        "electrons": [
+          "L1T_Electron_EhadOverEem"
+        ],
+        "photons": [
+          "L1T_PhotonTight_EhadOverEem"
+        ]
+      },
+      "definition": "EhadOverEem",
+      "invalid_fill": 0,
+      "validity_column": "ehad_over_eem_valid_1",
+      "pair_member": 1
+    },
+    {
+      "name": "charge_1",
+      "kind": "ordinal",
+      "units": "e",
+      "applicable_types": [
+        "jets",
+        "muons",
+        "electrons"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_Charge"
+        ],
+        "muons": [
+          "L1T_MuonTight_Charge"
+        ],
+        "electrons": [
+          "L1T_Electron_Charge"
+        ]
+      },
+      "definition": "Charge",
+      "invalid_fill": 0,
+      "validity_column": "charge_valid_1",
+      "pair_member": 1
+    },
+    {
+      "name": "abs_d0_valid_1",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "abs_d0_1",
+      "pair_member": 1
+    },
+    {
+      "name": "isolation_rho_corr_valid_1",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "isolation_rho_corr_1",
+      "pair_member": 1
+    },
+    {
+      "name": "mass_valid_1",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "mass_1",
+      "pair_member": 1
+    },
+    {
+      "name": "n_charged_valid_1",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "n_charged_1",
+      "pair_member": 1
+    },
+    {
+      "name": "n_neutrals_valid_1",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "n_neutrals_1",
+      "pair_member": 1
+    },
+    {
+      "name": "charged_fraction_valid_1",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "charged_fraction_1",
+      "pair_member": 1
+    },
+    {
+      "name": "ehad_over_eem_valid_1",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "ehad_over_eem_1",
+      "pair_member": 1
+    },
+    {
+      "name": "charge_valid_1",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "charge_1",
+      "pair_member": 1
+    },
+    {
+      "name": "eta_valid_1",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "eta_1",
+      "definition": "finite raw coordinate on the selected member"
+    },
+    {
+      "name": "phi_valid_1",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "phi_1",
+      "definition": "finite raw coordinate on the selected member"
+    },
+    {
+      "name": "pt_2",
+      "kind": "continuous",
+      "units": "GeV",
+      "pair_member": 2
+    },
+    {
+      "name": "eta_2",
+      "kind": "continuous",
+      "units": "1",
+      "pair_member": 2,
+      "validity_column": "eta_valid_2"
+    },
+    {
+      "name": "phi_2",
+      "kind": "continuous",
+      "units": "rad",
+      "pair_member": 2,
+      "validity_column": "phi_valid_2"
+    },
+    {
+      "name": "type_id_2",
+      "kind": "categorical",
+      "categories": {
+        "0": "jets",
+        "1": "muons",
+        "2": "electrons",
+        "3": "photons"
+      },
+      "pair_member": 2
+    },
+    {
+      "name": "abs_d0_2",
+      "kind": "continuous",
+      "units": "mm",
+      "applicable_types": [
+        "muons",
+        "electrons"
+      ],
+      "raw_columns": {
+        "muons": [
+          "L1T_MuonTight_D0"
+        ],
+        "electrons": [
+          "L1T_Electron_D0"
+        ]
+      },
+      "definition": "abs(D0)",
+      "invalid_fill": 0,
+      "validity_column": "abs_d0_valid_2",
+      "pair_member": 2
+    },
+    {
+      "name": "isolation_rho_corr_2",
+      "kind": "continuous",
+      "units": "1",
+      "applicable_types": [
+        "muons",
+        "electrons",
+        "photons"
+      ],
+      "raw_columns": {
+        "muons": [
+          "L1T_MuonTight_IsolationVarRhoCorr"
+        ],
+        "electrons": [
+          "L1T_Electron_IsolationVarRhoCorr"
+        ],
+        "photons": [
+          "L1T_PhotonTight_IsolationVarRhoCorr"
+        ]
+      },
+      "definition": "IsolationVarRhoCorr",
+      "invalid_fill": 0,
+      "validity_column": "isolation_rho_corr_valid_2",
+      "pair_member": 2
+    },
+    {
+      "name": "mass_2",
+      "kind": "continuous",
+      "units": "GeV",
+      "applicable_types": [
+        "jets"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_Mass"
+        ]
+      },
+      "definition": "Mass",
+      "invalid_fill": 0,
+      "validity_column": "mass_valid_2",
+      "pair_member": 2
+    },
+    {
+      "name": "n_charged_2",
+      "kind": "ordinal",
+      "units": "count",
+      "applicable_types": [
+        "jets"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_NCharged"
+        ]
+      },
+      "definition": "NCharged",
+      "invalid_fill": 0,
+      "validity_column": "n_charged_valid_2",
+      "pair_member": 2
+    },
+    {
+      "name": "n_neutrals_2",
+      "kind": "ordinal",
+      "units": "count",
+      "applicable_types": [
+        "jets"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_NNeutrals"
+        ]
+      },
+      "definition": "NNeutrals",
+      "invalid_fill": 0,
+      "validity_column": "n_neutrals_valid_2",
+      "pair_member": 2
+    },
+    {
+      "name": "charged_fraction_2",
+      "kind": "continuous",
+      "units": "1",
+      "applicable_types": [
+        "jets"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_NCharged",
+          "L1T_JetPuppiAK4_NNeutrals"
+        ]
+      },
+      "definition": "NCharged / (NCharged + NNeutrals)",
+      "invalid_fill": 0,
+      "validity_column": "charged_fraction_valid_2",
+      "pair_member": 2
+    },
+    {
+      "name": "ehad_over_eem_2",
+      "kind": "continuous",
+      "units": "1",
+      "applicable_types": [
+        "electrons",
+        "photons"
+      ],
+      "raw_columns": {
+        "electrons": [
+          "L1T_Electron_EhadOverEem"
+        ],
+        "photons": [
+          "L1T_PhotonTight_EhadOverEem"
+        ]
+      },
+      "definition": "EhadOverEem",
+      "invalid_fill": 0,
+      "validity_column": "ehad_over_eem_valid_2",
+      "pair_member": 2
+    },
+    {
+      "name": "charge_2",
+      "kind": "ordinal",
+      "units": "e",
+      "applicable_types": [
+        "jets",
+        "muons",
+        "electrons"
+      ],
+      "raw_columns": {
+        "jets": [
+          "L1T_JetPuppiAK4_Charge"
+        ],
+        "muons": [
+          "L1T_MuonTight_Charge"
+        ],
+        "electrons": [
+          "L1T_Electron_Charge"
+        ]
+      },
+      "definition": "Charge",
+      "invalid_fill": 0,
+      "validity_column": "charge_valid_2",
+      "pair_member": 2
+    },
+    {
+      "name": "abs_d0_valid_2",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "abs_d0_2",
+      "pair_member": 2
+    },
+    {
+      "name": "isolation_rho_corr_valid_2",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "isolation_rho_corr_2",
+      "pair_member": 2
+    },
+    {
+      "name": "mass_valid_2",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "mass_2",
+      "pair_member": 2
+    },
+    {
+      "name": "n_charged_valid_2",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "n_charged_2",
+      "pair_member": 2
+    },
+    {
+      "name": "n_neutrals_valid_2",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "n_neutrals_2",
+      "pair_member": 2
+    },
+    {
+      "name": "charged_fraction_valid_2",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "charged_fraction_2",
+      "pair_member": 2
+    },
+    {
+      "name": "ehad_over_eem_valid_2",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "ehad_over_eem_2",
+      "pair_member": 2
+    },
+    {
+      "name": "charge_valid_2",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "applicable, present and valid for this selected object",
+      "value_column": "charge_2",
+      "pair_member": 2
+    },
+    {
+      "name": "eta_valid_2",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "eta_2",
+      "definition": "finite raw coordinate on the selected member"
+    },
+    {
+      "name": "phi_valid_2",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "phi_2",
+      "definition": "finite raw coordinate on the selected member"
+    },
+    {
+      "name": "min_pt",
+      "kind": "continuous",
+      "units": "GeV",
+      "definition": "min(pt_1, pt_2)",
+      "invalid_fill": 0,
+      "validity_column": "min_pt_valid"
+    },
+    {
+      "name": "min_pt_valid",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "min_pt",
+      "definition": "both members exist and required measurements/result are valid"
+    },
+    {
+      "name": "sum_pt",
+      "kind": "continuous",
+      "units": "GeV",
+      "definition": "pt_1 + pt_2",
+      "invalid_fill": 0,
+      "validity_column": "sum_pt_valid"
+    },
+    {
+      "name": "sum_pt_valid",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "sum_pt",
+      "definition": "both members exist and required measurements/result are valid"
+    },
+    {
+      "name": "pair_pt",
+      "kind": "continuous",
+      "units": "GeV",
+      "definition": "magnitude of the vector transverse-momentum sum",
+      "invalid_fill": 0,
+      "validity_column": "pair_pt_valid"
+    },
+    {
+      "name": "pair_pt_valid",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "pair_pt",
+      "definition": "both members exist and required measurements/result are valid"
+    },
+    {
+      "name": "pt_balance",
+      "kind": "continuous",
+      "units": "1",
+      "definition": "min(pt_1, pt_2) / max(pt_1, pt_2)",
+      "invalid_fill": 0,
+      "validity_column": "pt_balance_valid"
+    },
+    {
+      "name": "pt_balance_valid",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "pt_balance",
+      "definition": "both members exist and required measurements/result are valid"
+    },
+    {
+      "name": "pair_mass",
+      "kind": "continuous",
+      "units": "GeV",
+      "definition": "invariant mass of the two member four-vectors",
+      "invalid_fill": 0,
+      "validity_column": "pair_mass_valid"
+    },
+    {
+      "name": "pair_mass_valid",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "pair_mass",
+      "definition": "both members exist and required measurements/result are valid"
+    },
+    {
+      "name": "abs_delta_eta",
+      "kind": "continuous",
+      "units": "1",
+      "definition": "abs(eta_1 - eta_2)",
+      "invalid_fill": 0,
+      "validity_column": "abs_delta_eta_valid"
+    },
+    {
+      "name": "abs_delta_eta_valid",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "abs_delta_eta",
+      "definition": "both members exist and required measurements/result are valid"
+    },
+    {
+      "name": "abs_delta_phi",
+      "kind": "continuous",
+      "units": "rad",
+      "definition": "absolute wrapped phi difference in [0, pi]",
+      "invalid_fill": 0,
+      "validity_column": "abs_delta_phi_valid"
+    },
+    {
+      "name": "abs_delta_phi_valid",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "abs_delta_phi",
+      "definition": "both members exist and required measurements/result are valid"
+    },
+    {
+      "name": "delta_r",
+      "kind": "continuous",
+      "units": "1",
+      "definition": "hypot(abs_delta_eta, abs_delta_phi)",
+      "invalid_fill": 0,
+      "validity_column": "delta_r_valid"
+    },
+    {
+      "name": "delta_r_valid",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "delta_r",
+      "definition": "both members exist and required measurements/result are valid"
+    },
+    {
+      "name": "max_isolation_rho_corr",
+      "kind": "continuous",
+      "units": "1",
+      "definition": "maximum of two valid corrected isolations",
+      "invalid_fill": 0,
+      "validity_column": "max_isolation_rho_corr_valid"
+    },
+    {
+      "name": "max_isolation_rho_corr_valid",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "max_isolation_rho_corr",
+      "definition": "both members exist and required measurements/result are valid"
+    },
+    {
+      "name": "min_abs_d0",
+      "kind": "continuous",
+      "units": "mm",
+      "definition": "minimum of two valid absolute stored D0 values",
+      "invalid_fill": 0,
+      "validity_column": "min_abs_d0_valid"
+    },
+    {
+      "name": "min_abs_d0_valid",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "min_abs_d0",
+      "definition": "both members exist and required measurements/result are valid"
+    },
+    {
+      "name": "opposite_sign",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "opposite charges for two leptons with charge +/-1",
+      "invalid_fill": 0,
+      "validity_column": "opposite_sign_valid"
+    },
+    {
+      "name": "opposite_sign_valid",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "opposite_sign",
+      "definition": "both members exist and required measurements/result are valid"
+    },
+    {
+      "name": "opposite_eta_hemispheres",
+      "kind": "boolean",
+      "units": "1",
+      "definition": "eta_1 and eta_2 have strictly opposite signs",
+      "invalid_fill": 0,
+      "validity_column": "opposite_eta_hemispheres_valid"
+    },
+    {
+      "name": "opposite_eta_hemispheres_valid",
+      "kind": "boolean",
+      "units": "1",
+      "value_column": "opposite_eta_hemispheres",
+      "definition": "both members exist and required measurements/result are valid"
+    }
+  ]
+}
